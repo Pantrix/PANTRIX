@@ -1,7 +1,7 @@
 Original App Design Project - README
 ===
 
-# PantryX
+# Pantrix
 
 ## Table of Contents
 1. [Overview](#Overview)
