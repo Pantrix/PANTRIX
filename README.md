@@ -1,7 +1,7 @@
 Original App Design Project - README
 ===
 
-# Pantrix
+# PANTRIX
 
 ## Table of Contents
 1. [Overview](#Overview)
