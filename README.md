@@ -90,12 +90,12 @@ Because of COVID-19, many individuals have decided to eat less at restaurants an
 * Pantry
     * Collection of food that the user inputs
 * Search Page
-    * Favorites
+    * Recipes
 * Settings/ Profile
     * Log in
 
 ## Wireframes
-<img src="https://i.imgur.com/ybDktmP.jpg" width=600>
+<img src="https://i.imgur.com/NheZ3ou.jpg" width=600>
 
 
 ## Schema 
