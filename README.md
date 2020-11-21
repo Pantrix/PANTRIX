@@ -11,7 +11,7 @@ Original App Design Project - README
 
 ## Overview
 ### Description
-Because of COVID-19, many individuals have decided to eat less at restaurants and go out as little as possible. As a result, we decided to create an app that will aid these individuals in finding recipes with ingredients they have at home. Users will be able to input the ingredients they have at hand and receive recipe recommendations. The recipes would also include nutritional information as well as pricing of the ingredients.
+Because of COVID-19, many individuals have decided to eat less at restaurants and go out as little as possible. For that reason, we decided to create an app that will aid these individuals in finding recipes with ingredients they have at home. Users will be able to input the ingredients they have at hand and receive recipe recommendations. The recipes would also include nutritional information as well as pricing of the ingredients.
 
 ### App Evaluation
 
@@ -101,7 +101,74 @@ Because of COVID-19, many individuals have decided to eat less at restaurants an
 ## Schema 
 ### Models
 
+#### User
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | userId        | String   | username of user |
+   | password      | String   | password of user |
+
+#### Recipe
+
+   | Property        | Type     | Description |
+   | -------------   | -------- | ------------|
+   | popularRecipeId | String   | unique id for popular recipes |
+   | image           | File     | image of recipe |
+   | caption         | String   | image caption (recipe name) |
+   | likeCount       | Number   | number of likes for the recipe |
+   | ingredientCount | Map      | ingredients and its quantity needed |
+   | nutritionValue  | Map      | recipes and their nutritional facts | 
+   | userImage       | File     | image that user posts for that recipe |
+   
+#### Ingredient 
+
+   | Property       | Type     | Description|
+   | -------------  | -------- | ------------|
+   | ingredientName | String   | ingredient name |
+   | ingredientId   | String   | unique id for the user input of ingredients |
+   
+#### Pantry 
+   | Property        | Type     | Description | 
+   | -------------   | -------- | ------------|
+   | recipeName      | String   | recipe name |
+   | pantryId        | String   | unique id for the user list of ingredients |
+   | recipeId        | String   | unique id for the user input of recipe |
+   | image           | File     | image of recipe |
+   | caption         | String   | image caption (recipe name) |
+   | likesCount      | Number   | number of likes for the recipe |
+   | ingredientCount | Map      | ingredients and its quantity needed |
+   | nutritionValue  | Map      | recipes and their nutritional facts | 
+   | userImage       | File     | image that user posts for that recipe |
+   
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+#### List of network requests by screen
+
+   - Login Screen
+       - 
+   - Home Feed Screen
+      - (Read/GET) Query to fetch recipes for feed
+         ```swift
+         let query = PFQuery(className:"Post")
+         query.whereKey("author", equalTo: currentUser)
+         query.order(byDescending: "createdAt")
+         query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
+            if let error = error { 
+               print(error.localizedDescription)
+            } else if let posts = posts {
+               print("Successfully retrieved \(posts.count) posts.")
+           // TODO: Do something with posts...
+            }
+         }
+         ```
+   - Create Home Screen
+      - (Read/GET) Fetching recipes for user's feed
+      - (Create/POST) Create a new like on a post
+      - (Delete) Delete existing like
+      - (Create/POST) Create a new comment on a post
+      - (Delete) Delete existing comment
+   - Create Post Screen
+      - (Create/POST) Create a new post object
+   - Profile Screen
+      - (Read/GET) Query logged in user object
+      - (Update/PUT) Update user profile image
