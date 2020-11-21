@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		07CA94862569B57E005F310B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CA94852569B57E005F310B /* AppDelegate.swift */; };
 		07CA94882569B57E005F310B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CA94872569B57E005F310B /* SceneDelegate.swift */; };
-		07CA948A2569B57E005F310B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CA94892569B57E005F310B /* ViewController.swift */; };
 		07CA948D2569B57E005F310B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07CA948B2569B57E005F310B /* Main.storyboard */; };
 		07CA948F2569B580005F310B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07CA948E2569B580005F310B /* Assets.xcassets */; };
 		07CA94922569B580005F310B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07CA94902569B580005F310B /* LaunchScreen.storyboard */; };
 		07CA949D2569B581005F310B /* PantrixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CA949C2569B581005F310B /* PantrixTests.swift */; };
 		07CA94A82569B581005F310B /* PantrixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CA94A72569B581005F310B /* PantrixUITests.swift */; };
+		07CA94BA2569CFFA005F310B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CA94B92569CFFA005F310B /* LoginViewController.swift */; };
+		07CA94BC2569D039005F310B /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CA94BB2569D039005F310B /* FeedViewController.swift */; };
+		4E87C3378CF5EEC93A244565 /* Pods_Pantrix_PantrixUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3529EB4D25FA2539B6FDCDE /* Pods_Pantrix_PantrixUITests.framework */; };
+		AE8B68ADC4C9E0688C27D234 /* Pods_Pantrix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA860AB666646FDF25F73EE /* Pods_Pantrix.framework */; };
+		F1F640DD5C4F9B7525A93BAA /* Pods_PantrixTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A08522FA1D54B19A9CB39A /* Pods_PantrixTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +42,6 @@
 		07CA94822569B57E005F310B /* Pantrix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pantrix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07CA94852569B57E005F310B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07CA94872569B57E005F310B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		07CA94892569B57E005F310B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		07CA948C2569B57E005F310B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07CA948E2569B580005F310B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07CA94912569B580005F310B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,17 @@
 		07CA94A32569B581005F310B /* PantrixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PantrixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07CA94A72569B581005F310B /* PantrixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantrixUITests.swift; sourceTree = "<group>"; };
 		07CA94A92569B581005F310B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07CA94B92569CFFA005F310B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		07CA94BB2569D039005F310B /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		147B8445EB13408E328468BF /* Pods-Pantrix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pantrix.debug.xcconfig"; path = "Target Support Files/Pods-Pantrix/Pods-Pantrix.debug.xcconfig"; sourceTree = "<group>"; };
+		1AA860AB666646FDF25F73EE /* Pods_Pantrix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pantrix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B19424F9619A033DA63EF62 /* Pods-Pantrix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pantrix.release.xcconfig"; path = "Target Support Files/Pods-Pantrix/Pods-Pantrix.release.xcconfig"; sourceTree = "<group>"; };
+		7D916B80BAC12A11F64ADD96 /* Pods-Pantrix-PantrixUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pantrix-PantrixUITests.release.xcconfig"; path = "Target Support Files/Pods-Pantrix-PantrixUITests/Pods-Pantrix-PantrixUITests.release.xcconfig"; sourceTree = "<group>"; };
+		88121E72D613E4946285B699 /* Pods-PantrixTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PantrixTests.debug.xcconfig"; path = "Target Support Files/Pods-PantrixTests/Pods-PantrixTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3529EB4D25FA2539B6FDCDE /* Pods_Pantrix_PantrixUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pantrix_PantrixUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9A08522FA1D54B19A9CB39A /* Pods_PantrixTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PantrixTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0C38735DF7F7BCD7AE55E37 /* Pods-PantrixTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PantrixTests.release.xcconfig"; path = "Target Support Files/Pods-PantrixTests/Pods-PantrixTests.release.xcconfig"; sourceTree = "<group>"; };
+		FAED388236FF02AF562280C2 /* Pods-Pantrix-PantrixUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pantrix-PantrixUITests.debug.xcconfig"; path = "Target Support Files/Pods-Pantrix-PantrixUITests/Pods-Pantrix-PantrixUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE8B68ADC4C9E0688C27D234 /* Pods_Pantrix.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1F640DD5C4F9B7525A93BAA /* Pods_PantrixTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E87C3378CF5EEC93A244565 /* Pods_Pantrix_PantrixUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,8 @@
 				07CA949B2569B581005F310B /* PantrixTests */,
 				07CA94A62569B581005F310B /* PantrixUITests */,
 				07CA94832569B57E005F310B /* Products */,
+				69F3AF1A0266386233695046 /* Pods */,
+				363B68D266BB703FD86453B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +120,12 @@
 			children = (
 				07CA94852569B57E005F310B /* AppDelegate.swift */,
 				07CA94872569B57E005F310B /* SceneDelegate.swift */,
-				07CA94892569B57E005F310B /* ViewController.swift */,
 				07CA948B2569B57E005F310B /* Main.storyboard */,
 				07CA948E2569B580005F310B /* Assets.xcassets */,
 				07CA94902569B580005F310B /* LaunchScreen.storyboard */,
 				07CA94932569B580005F310B /* Info.plist */,
+				07CA94B92569CFFA005F310B /* LoginViewController.swift */,
+				07CA94BB2569D039005F310B /* FeedViewController.swift */,
 			);
 			path = Pantrix;
 			sourceTree = "<group>";
@@ -128,6 +148,30 @@
 			path = PantrixUITests;
 			sourceTree = "<group>";
 		};
+		363B68D266BB703FD86453B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AA860AB666646FDF25F73EE /* Pods_Pantrix.framework */,
+				A3529EB4D25FA2539B6FDCDE /* Pods_Pantrix_PantrixUITests.framework */,
+				B9A08522FA1D54B19A9CB39A /* Pods_PantrixTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69F3AF1A0266386233695046 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				147B8445EB13408E328468BF /* Pods-Pantrix.debug.xcconfig */,
+				2B19424F9619A033DA63EF62 /* Pods-Pantrix.release.xcconfig */,
+				FAED388236FF02AF562280C2 /* Pods-Pantrix-PantrixUITests.debug.xcconfig */,
+				7D916B80BAC12A11F64ADD96 /* Pods-Pantrix-PantrixUITests.release.xcconfig */,
+				88121E72D613E4946285B699 /* Pods-PantrixTests.debug.xcconfig */,
+				C0C38735DF7F7BCD7AE55E37 /* Pods-PantrixTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07CA94AC2569B581005F310B /* Build configuration list for PBXNativeTarget "Pantrix" */;
 			buildPhases = (
+				5ACB8FD2366F027008B01D2A /* [CP] Check Pods Manifest.lock */,
 				07CA947E2569B57E005F310B /* Sources */,
 				07CA947F2569B57E005F310B /* Frameworks */,
 				07CA94802569B57E005F310B /* Resources */,
+				00628F280A4608C7AB5A12D3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07CA94AF2569B581005F310B /* Build configuration list for PBXNativeTarget "PantrixTests" */;
 			buildPhases = (
+				B726147731E12BF8153D6267 /* [CP] Check Pods Manifest.lock */,
 				07CA94942569B581005F310B /* Sources */,
 				07CA94952569B581005F310B /* Frameworks */,
 				07CA94962569B581005F310B /* Resources */,
@@ -170,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07CA94B22569B581005F310B /* Build configuration list for PBXNativeTarget "PantrixUITests" */;
 			buildPhases = (
+				32B4DB0AD4463B96FDA385BF /* [CP] Check Pods Manifest.lock */,
 				07CA949F2569B581005F310B /* Sources */,
 				07CA94A02569B581005F310B /* Frameworks */,
 				07CA94A12569B581005F310B /* Resources */,
+				C5F92AEE5331AFB4AD4649B6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,13 +303,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00628F280A4608C7AB5A12D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pantrix/Pods-Pantrix-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pantrix/Pods-Pantrix-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pantrix/Pods-Pantrix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32B4DB0AD4463B96FDA385BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pantrix-PantrixUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5ACB8FD2366F027008B01D2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pantrix-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B726147731E12BF8153D6267 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PantrixTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5F92AEE5331AFB4AD4649B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pantrix-PantrixUITests/Pods-Pantrix-PantrixUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pantrix-PantrixUITests/Pods-Pantrix-PantrixUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pantrix-PantrixUITests/Pods-Pantrix-PantrixUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		07CA947E2569B57E005F310B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07CA948A2569B57E005F310B /* ViewController.swift in Sources */,
+				07CA94BA2569CFFA005F310B /* LoginViewController.swift in Sources */,
 				07CA94862569B57E005F310B /* AppDelegate.swift in Sources */,
+				07CA94BC2569D039005F310B /* FeedViewController.swift in Sources */,
 				07CA94882569B57E005F310B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +585,7 @@
 		};
 		07CA94AD2569B581005F310B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 147B8445EB13408E328468BF /* Pods-Pantrix.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +603,7 @@
 		};
 		07CA94AE2569B581005F310B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B19424F9619A033DA63EF62 /* Pods-Pantrix.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +621,7 @@
 		};
 		07CA94B02569B581005F310B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88121E72D613E4946285B699 /* Pods-PantrixTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +643,7 @@
 		};
 		07CA94B12569B581005F310B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0C38735DF7F7BCD7AE55E37 /* Pods-PantrixTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +665,7 @@
 		};
 		07CA94B32569B581005F310B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAED388236FF02AF562280C2 /* Pods-Pantrix-PantrixUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +685,7 @@
 		};
 		07CA94B42569B581005F310B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D916B80BAC12A11F64ADD96 /* Pods-Pantrix-PantrixUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
